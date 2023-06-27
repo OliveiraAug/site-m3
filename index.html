@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>SpongeBob</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/spongebob-squarepants-logo-7D9CF8A260-seeklogo.com.png">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <img class="navbar-brand" src="assets/brand.png" alt="Logo">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#empresa">Empresa</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>SpongeBob SquarePants</h1>
+        <p>Personagem de desenho animado.</p>
+    </header>
+
+    <h2>Sobre</h2>
+    <section id="sobre">
+        <p>Olá, sou Bob, tenho um coração bondoso, sou otimista, alegre e
+            amigável. Moro em uma cidade pequena e submarina, localizada na Fenda do Biquíni.
+            Trabalho como cozinheiro em um fast food famoso, porém nada refinado.
+            Nas horas vagas costumo praticar Karatê e soltar bolhas de sabão. Me divirto muito
+            com meu melhor amigo Patrick caçando águas vivas.</p>
+        <div class="sobre_detalhes">
+            <h3>Habilidades</h3>
+            <img src="assets/chapaquente.jpg" alt="Chapa Quente">
+            <img src="assets/culinaria.jpg" alt="Culinária">
+            <img src="assets/espatula.jpg" alt="Espátula">
+            <img src="assets/spongebob_bubbles.png" alt="Bolha de Sabão">
+            <img src="assets/bobesponjakarate.jpg" alt="Karatê">
+            <img src="assets/cacandoaguaviva.jpg" alt="Karatê">
+        </div>
+        <div class="eventos_participados">
+            <h3>Eventos Participados</h3>
+            <img class="eventos" src="assets/corridadepets.png" alt="Corrida de Pets">
+            <img class="eventos" src="assets/ravedafendadobikini.png" alt="Rave na Fenda do Bikini">
+        </div>
+    </section>
+
+    <h2>Portfolio</h2>
+    <section id="portfolio">
+
+        <div id="contributionsContainer" class="contributions">
+            <div class="profile">
+                <img src="assets/bob_foto_perfil.jpg" alt="Profile Avatar">
+            </div>
+            <h3>Bob Esponja Calça Quadrada</h3>
+            <p>Cozinheiro</p>
+        </div>
+        <div class="activities">
+            <h3>Formação</h3>
+            <div class="activity">
+                <span class="pushevent">UFFB</span>
+                <span>Mestre em Espatulagem</span>
+                <span>2008</span>
+            </div>
+            <div class="activity">
+                <span class="pushevent">UFFB</span>
+                <span>Pós-graduado em Gestão de Chapas Quentes</span>
+                <span>2001</span>
+            </div>
+            <div class="activity">
+                <span class="pushevent">UFFB</span>
+                <span>Graduado em Culinária Baganística</span>
+                <span>1999</span>
+            </div>
+            <div class="activity">
+                <span class="pushevent">UFFB</span>
+                <span>Técnico em Fast-Food</span>
+                <span>1997</span>
+            </div>
+        </div>
+    </section>
+
+    <h2 id="empresa">Empresa</h2>
+    <div class="content contato">
+        <H3>Sobre a Nickelodeon</H3>
+        <P>
+            A Nickelodeon é a marca número 1 em entretenimento para crianças,
+            oferecendo uma vasta programação familiar,
+            filmes de longa-metragem e muito conteúdo divertido.
+        </P>
+
+        <div class="programacao">
+            <h3>Programação</h3>
+            <img src="assets/henrydanger.jpg" alt="HENRY DANGER"
+                title="Henry Hart adora ajudar seu amigo Capitão Man a salvar o dia.">
+            <img src="assets/kampkoralbobesponja.jpg" alt="KAMP KORAL - BOB ESPONJA, PRIMEIROS ANOS!"
+                title="O jovem Bob Esponja e seus amigos passam o verão num acampamento divertido.">
+            <img src="assets/thatgirllaylay.jpg" alt="THAT GIRL LAY LAY"
+                title="A melhor amiga da Sadie tem uma incrível história de sua origem.">
+            <img src="assets/smurfs.jpg" alt="OS SMURFS" title="A vida é uma grande aventura para esta família azul.">
+        </div>
+
+    </div>
+
+    <h2 id="contato">Contato</h2>
+    <div class="content contato">
+        <form>
+            <label for="fname">Nome</label>
+            <input type="text" id="fname" name="firstname" placeholder="Seu nome.." required>
+
+            <label for="lname">Sobrenome</label>
+            <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome..">
+
+            <label for="email">Email</label>
+            <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" required>
+
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto">
+                <option value="sugestao">Sugestão</option>
+                <option value="oportunidades">Oportunidades</option>
+                <option value="outros">Outros</option>
+            </select>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem.." style="height:200px"
+                required></textarea>
+            <button>Enviar</button>
+        </form>
+    </div>
+    <section>
+        <p>Meus contatos</p>
+        <div class="contato_icons">
+            <img src="assets/Twitter.svg" alt="Twitter">
+            <img src="assets/Discord.svg" alt="Discord">
+            <img src="assets/Telegram.svg" alt="Telegram">
+            <img src="assets/Linkedin.svg" alt="LinkedIn">
+            <img src="assets/Github.svg" alt="GitHub">
+            <img src="assets/Email.svg" alt="Email">
+            <img src="assets/Whatsapp.svg" alt="WhatsApp">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 - Todos os direitos reservados.</p>
+    </footer>
+</body>
